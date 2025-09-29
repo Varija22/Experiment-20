@@ -15,9 +15,9 @@ int main() {
 
     int result = linearSearch(arr, n, key);
     if (result != -1)
-        cout << "Element found at index: " << result << endl;
+        cout << "Linear Search: Element found at index " << result << endl;
     else
-        cout << "Element not found" << endl;
+        cout << "Linear Search: Element not found" << endl;
 
     return 0;
 }
